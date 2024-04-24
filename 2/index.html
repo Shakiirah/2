@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown()">Select a Subject</button>
+        <div id="dropdownContent" class="dropdown-content">
+          <a href="#">Mathematics</a>
+          <a href="#">English</a>
+          <a href="#">Physics</a>
+        </div>
+    </div>
+    <script>
+        function toggleDropdown(){
+            var element = document.getElementById("dropdownContent")
+
+            if (element.style.display === "none") {
+                element.style.display = "block"
+            } else {
+                element.style.display = "none"
+            }
+        }
+    </script> 
+</body>
+</html>

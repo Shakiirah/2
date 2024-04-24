@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn {
+    background-color: #87e28a; /* Green background */
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid blue;
+    border-radius: 10px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 5px 10px 18px grey , -5px 10px 18px grey;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black; /* Black text */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1px;
+    background-color: #cf0fe0;
+    width: 80%;
+  }
